@@ -1,0 +1,24 @@
+receiptData = "For groceries, electronics, or clothing"
+receipt = input("Please enter your receipt data: ")
+readData = ('Press 2')
+exit = ("press 3")
+import wx
+class MyApp(wx.App):
+    def OnInit(self):
+        wx.MessageBox("To enter receipt data Press 1", "to read data Press 2", " to exit press 3", "wxApp")
+        return True
+        
+if __name__ == "__main__":
+    app = MyApp(False) 
+    app.MainLoop()
+
+receipt.format = ('YYYYMMDD-seller')
+buyers.format = ("Enter name here", "Enter name here")
+billableItem.format = ("buyer name:", "quantity:", "description:", "price:","tax:","tip:")
+import csv 
+url = 'https://docs.python.org/3/library/csv.html'
+receiptID = ('20200418-kylie_jenner')
+buyers = ("William perkin", "Eric Garcia")
+billableItem = ("Eric Garcia", "2", "toilet paper", "$20.00", "1.265", "$0.00")
+billableItem1 = ("William Perkin", "3", "can soup", "$2.94", "0.18", "0.00")
+print("billableItem + billableItem1")
